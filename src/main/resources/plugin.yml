@@ -2,7 +2,7 @@ name: ElysiaCitizens
 authors: [hellcatv, lyuma, FifthOracle, hebrewhamm3r]
 version: 0.1
 main: org.elysia.ElysiaCitizens
-soft-depend: [Citizens]
+depend: [Citizens]
 website: https://github.com/pathorn/ElysiaCitizens
 commands:
 #  script:
