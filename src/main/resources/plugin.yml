@@ -4,42 +4,17 @@ version: 0.1
 main: org.elysia.ElysiaCitizens
 depend: [Citizens]
 website: https://github.com/pathorn/ElysiaCitizens
+description: ElysiaCitizens allows more intelligent mobs
 commands:
-#  script:
-#    description: Scripting commands
-#  citizens:
-#    description: Administration commands
-#  npc:
-#    description: Basic commands for all NPC-related things
-permissions:
-# citizens.*:
-#   default: op
-#   children:
-#     citizens.admin: true
-#     citizens.help: true
-#     citizens.script.*:
-#       children:
-#           citizens.script.compile: true
-#           citizens.script.help: true
-#     citizens.npc.*:
-#       children:
-#         citizens.npc.age: true
-#         citizens.npc.character.*: true
-#         citizens.npc.create: true
-#         citizens.npc.despawn: true
-#         citizens.npc.equip: true
-#         citizens.npc.help: true
-#         citizens.npc.list: true
-#         citizens.npc.lookclose: true
-#         citizens.npc.owner: true
-#         citizens.npc.path: true
-#         citizens.npc.profession: true
-#         citizens.npc.remove: true
-#         citizens.npc.remove.all: true
-#         citizens.npc.rename: true
-#         citizens.npc.select: true
-#         citizens.npc.spawn: true
-#         citizens.npc.talk: true
-#         citizens.npc.text: true
-#         citizens.npc.tp: true
-#         citizens.npc.tphere: true
+   spawn:
+     description: Spawn a villager
+     usage: /spawn <type>
+#     permission: elysiacitizens.spawn
+#permissions:
+#  elysiacitizens.*:
+#     description: Give access to all elysiacitizens commands
+#     children:
+#        elysiacitizens.spawn: true
+#  elysiacitizens.spawn:
+#     default: true
+#     description: Allows you to spawn creatures
